@@ -34,7 +34,7 @@ public class TestCase {
 
         Assertions.assertEquals(titleD.isDisplayed(), true);
         Assertions.assertEquals(titleD.getText(), "D");
-        Assertions.assertEquals(titleD.getCssValue("color"), "rgba(70, 0, 255, 1)");`
+        Assertions.assertEquals(titleD.getCssValue("color"), "rgba(70, 0, 255, 1)");
     }
 
     @AfterEach
